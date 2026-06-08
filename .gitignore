@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.eggs/
+dist/
+build/
+*.egg-info/
+# Tests
+.coverage
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+# GCP / secrets
+*.json
+service-account*.json
+.env
+.env.*
+!.env.example
+# Notebooks
+.ipynb_checkpoints/
+# Models
+models/*.pkl
+models/*.h5
